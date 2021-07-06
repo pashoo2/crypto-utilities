@@ -11,4 +11,4 @@ It uses WebCrypto API under the hood.
 
 With these utilities you can easily protect data on a client side and send it a safe way to anyone. You can just verify whether data was created by a certain user. Or just for storing data in a browser's LocalStorage in a safe way by protecting it with a password. You can data sharing p2p with a cirtain amount of confidence it wont be read by anyone without a permission to do that, like it does in a blockchain.
 
-[Exports](/docs/modules.md)
+[See docs](/docs/modules.md)
