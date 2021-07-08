@@ -1,4 +1,4 @@
-[@pashoo2/utils](../README.md) / [Exports](../modules.md) / eCRYPTO_UTILS_KEYS_USAGES
+[@pashoo2/crypto-utilities](../README.md) / [Exports](../modules.md) / eCRYPTO_UTILS_KEYS_USAGES
 
 # Enumeration: eCRYPTO\_UTILS\_KEYS\_USAGES
 
@@ -23,7 +23,7 @@
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:15
+[encryption-utils/crypto-utils.const.ts:15](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L15)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:19
+[encryption-utils/crypto-utils.const.ts:19](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L19)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:18
+[encryption-utils/crypto-utils.const.ts:18](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L18)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:14
+[encryption-utils/crypto-utils.const.ts:14](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L14)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:16
+[encryption-utils/crypto-utils.const.ts:16](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L16)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:21
+[encryption-utils/crypto-utils.const.ts:21](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L21)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:17
+[encryption-utils/crypto-utils.const.ts:17](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L17)
 
 ___
 
@@ -93,4 +93,4 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:20
+[encryption-utils/crypto-utils.const.ts:20](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L20)

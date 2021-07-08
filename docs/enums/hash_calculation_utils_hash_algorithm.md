@@ -1,4 +1,4 @@
-[@pashoo2/utils](../README.md) / [Exports](../modules.md) / HASH_CALCULATION_UTILS_HASH_ALGORITHM
+[@pashoo2/crypto-utilities](../README.md) / [Exports](../modules.md) / HASH_CALCULATION_UTILS_HASH_ALGORITHM
 
 # Enumeration: HASH\_CALCULATION\_UTILS\_HASH\_ALGORITHM
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-const.ts:2
+[const.ts:2](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/const.ts#L2)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-const.ts:3
+[const.ts:3](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/const.ts#L3)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-const.ts:4
+[const.ts:4](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/const.ts#L4)

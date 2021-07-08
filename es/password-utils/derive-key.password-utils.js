@@ -51,8 +51,8 @@ exports.importPasswordKeyFromString = exports.importPasswordKey = exports.genera
 var typed_array_utils_1 = require("@pashoo2/typed-array-utils");
 var salt_utils_1 = require("../encryption-utils/salt-utils");
 var init_1 = require("../init");
+var encryption_keys_utils_1 = require("../encryption-keys-utils/encryption-keys-utils");
 var password_utils_const_1 = require("./password-utils.const");
-var encryption_keys_utils_1 = require("@root/encryption-keys-utils");
 var generatePasswordKey = function (password) { return __awaiter(void 0, void 0, void 0, function () {
     var err_1;
     return __generator(this, function (_a) {

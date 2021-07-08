@@ -6,6 +6,7 @@ import {
 import {importSalt} from '../encryption-utils/salt-utils';
 import {TSaltUtilsSaltType} from '../encryption-utils/salt-utils.types';
 import {crypto, cryptoModuleDataSign} from '../init';
+import {isCryptoKey} from '../encryption-keys-utils/encryption-keys-utils';
 import {
   TPasswordEncryptionSupportedPasswordNativeTypes,
   TPasswordEnryptionUtilsKeyDerivedTargetKeyExportFormat,
@@ -23,7 +24,6 @@ import {
   PASSWORD_ENCRYPTION_UTILS_KEY_DERIVED_TARGET_KEY_EXPORT_FORMAT,
   PASSWORD_ENCRYPTION_UTILS_KEY_DERIVED_TARGET_KEY_IMPORT_FORMAT,
 } from './password-utils.const';
-import {isCryptoKey} from '@root/encryption-keys-utils';
 
 export const generatePasswordKey = async (
   password: TPasswordEncryptionSupportedPasswordNativeTypes
