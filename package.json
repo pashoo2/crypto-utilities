@@ -1,6 +1,6 @@
 {
   "name": "@pashoo2/crypto-utilities",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utilities for a data signing and verification, encryption and decryption, a password generation with a salt, crypto keys generation, serialization, parsing of them. Written in Typescript both for a browser and NodeJS.",
   "main": "es/index.js",
   "types": "es/index.d.ts",
