@@ -5,3 +5,4 @@ export * from './data-sign-utils';
 export * from './encryption-keys-utils';
 export * from './encryption-utils';
 export * from './password-utils';
+export * from './hash-calculation-utils';

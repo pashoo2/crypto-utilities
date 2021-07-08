@@ -17,4 +17,5 @@ __exportStar(require("./data-sign-utils"), exports);
 __exportStar(require("./encryption-keys-utils"), exports);
 __exportStar(require("./encryption-utils"), exports);
 __exportStar(require("./password-utils"), exports);
+__exportStar(require("./hash-calculation-utils"), exports);
 //# sourceMappingURL=index.js.map
