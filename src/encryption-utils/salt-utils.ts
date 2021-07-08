@@ -115,7 +115,7 @@ export const importSalt = (salt: TSaltUtilsSaltType): Uint8Array | Error => {
   if (saltImported instanceof Error) {
     return saltImported;
   }
-  if (isTypedArrayNative(saltImported)) {
+  if (isTypedArrayNative(saltImported) || saltImported instanceof ArrayBuffer) {
     return new Uint8Array(saltImported);
   }
   return new Error('An unknown format of the salt imported');

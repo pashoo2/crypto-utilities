@@ -90,7 +90,7 @@ var importSalt = function (salt) {
     if (saltImported instanceof Error) {
         return saltImported;
     }
-    if (typed_array_utils_1.isTypedArrayNative(saltImported)) {
+    if (typed_array_utils_1.isTypedArrayNative(saltImported) || saltImported instanceof ArrayBuffer) {
         return new Uint8Array(saltImported);
     }
     return new Error('An unknown format of the salt imported');
