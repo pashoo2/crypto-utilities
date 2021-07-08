@@ -1,6 +1,6 @@
-[@pashoo2/utils](README.md) / Exports
+[@pashoo2/crypto-utilities](README.md) / Exports
 
-# @pashoo2/utils
+# @pashoo2/crypto-utilities
 
 ## Table of contents
 
@@ -113,6 +113,8 @@
 
 - [calcCryptoKeyHash](modules.md#calccryptokeyhash)
 - [calcCryptoKeyPairHash](modules.md#calccryptokeypairhash)
+- [calculateHash](modules.md#calculatehash)
+- [calculateHashNative](modules.md#calculatehashnative)
 - [checkIfStringIsKeyPair](modules.md#checkifstringiskeypair)
 - [concatDataWithInitializationVector](modules.md#concatdatawithinitializationvector)
 - [dataSignCheckIfStringIsKeyPair](modules.md#datasigncheckifstringiskeypair)
@@ -177,6 +179,7 @@
 - [getJWKOrBool](modules.md#getjwkorbool)
 - [getJWKOrError](modules.md#getjwkorerror)
 - [getKeyOfType](modules.md#getkeyoftype)
+- [hashCalculator](modules.md#hashcalculator)
 - [importKey](modules.md#importkey)
 - [importKeyFromString](modules.md#importkeyfromstring)
 - [importKeyPair](modules.md#importkeypair)
@@ -213,7 +216,7 @@
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:55
+[encryption-utils/crypto-utils.types.ts:55](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L55)
 
 ___
 
@@ -223,7 +226,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:53
+[encryption-utils/crypto-utils.types.ts:53](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L53)
 
 ___
 
@@ -233,7 +236,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:46
+[encryption-utils/crypto-utils.types.ts:46](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L46)
 
 ___
 
@@ -243,7 +246,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:33
+[encryption-utils/crypto-utils.types.ts:33](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L33)
 
 ___
 
@@ -253,7 +256,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:31
+[encryption-utils/crypto-utils.types.ts:31](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L31)
 
 ___
 
@@ -263,7 +266,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:39
+[encryption-utils/crypto-utils.types.ts:39](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L39)
 
 ___
 
@@ -273,7 +276,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:9
+[encryption-utils/crypto-utils.types.ts:9](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L9)
 
 ___
 
@@ -283,7 +286,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:11
+[encryption-utils/crypto-utils.types.ts:11](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L11)
 
 ___
 
@@ -301,7 +304,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:13
+[encryption-utils/crypto-utils.types.ts:13](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L13)
 
 ___
 
@@ -319,7 +322,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:25
+[encryption-utils/crypto-utils.types.ts:25](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L25)
 
 ___
 
@@ -337,7 +340,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:19
+[encryption-utils/crypto-utils.types.ts:19](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L19)
 
 ___
 
@@ -354,7 +357,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:66
+[encryption-utils/crypto-utils.types.ts:66](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L66)
 
 ___
 
@@ -364,7 +367,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:71
+[encryption-utils/crypto-utils.types.ts:71](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L71)
 
 ___
 
@@ -374,7 +377,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.types.ts:57
+[encryption-utils/crypto-utils.types.ts:57](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.types.ts#L57)
 
 ___
 
@@ -384,7 +387,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:37
+[data-sign-utils/data-sign-utils.types.ts:37](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L37)
 
 ___
 
@@ -394,7 +397,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:8
+[data-sign-utils/data-sign-utils.types.ts:8](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L8)
 
 ___
 
@@ -412,7 +415,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:59
+[data-sign-utils/data-sign-utils.types.ts:59](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L59)
 
 ___
 
@@ -429,7 +432,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:10
+[data-sign-utils/data-sign-utils.types.ts:10](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L10)
 
 ___
 
@@ -447,7 +450,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:69
+[data-sign-utils/data-sign-utils.types.ts:69](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L69)
 
 ___
 
@@ -457,7 +460,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:17
+[data-sign-utils/data-sign-utils.types.ts:17](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L17)
 
 ___
 
@@ -467,7 +470,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:15
+[data-sign-utils/data-sign-utils.types.ts:15](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L15)
 
 ___
 
@@ -477,7 +480,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:23
+[data-sign-utils/data-sign-utils.types.ts:23](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L23)
 
 ___
 
@@ -487,7 +490,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:53
+[data-sign-utils/data-sign-utils.types.ts:53](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L53)
 
 ___
 
@@ -497,7 +500,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:55
+[data-sign-utils/data-sign-utils.types.ts:55](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L55)
 
 ___
 
@@ -507,7 +510,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:51
+[data-sign-utils/data-sign-utils.types.ts:51](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L51)
 
 ___
 
@@ -517,7 +520,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.types.ts:30
+[data-sign-utils/data-sign-utils.types.ts:30](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.types.ts#L30)
 
 ___
 
@@ -527,7 +530,7 @@ ___
 
 #### Defined in
 
-types.ts:3
+[types.ts:3](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/types.ts#L3)
 
 ___
 
@@ -537,7 +540,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.types.ts:13
+[password-utils/password-utils.types.ts:13](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.types.ts#L13)
 
 ___
 
@@ -547,7 +550,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.types.ts:3
+[password-utils/password-utils.types.ts:3](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.types.ts#L3)
 
 ___
 
@@ -557,7 +560,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.types.ts:7
+[password-utils/password-utils.types.ts:7](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.types.ts#L7)
 
 ___
 
@@ -567,7 +570,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.types.ts:11
+[password-utils/password-utils.types.ts:11](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.types.ts#L11)
 
 ___
 
@@ -577,7 +580,7 @@ ___
 
 #### Defined in
 
-encryption-utils/salt-utils.types.ts:3
+[encryption-utils/salt-utils.types.ts:3](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/salt-utils.types.ts#L3)
 
 ## Variables
 
@@ -587,7 +590,7 @@ encryption-utils/salt-utils.types.ts:3
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:37
+[encryption-utils/crypto-utils.const.ts:37](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L37)
 
 ___
 
@@ -597,7 +600,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:34
+[encryption-utils/crypto-utils.const.ts:34](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L34)
 
 ___
 
@@ -607,7 +610,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:42
+[encryption-utils/crypto-utils.const.ts:42](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L42)
 
 ___
 
@@ -617,7 +620,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:40
+[encryption-utils/crypto-utils.const.ts:40](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L40)
 
 ___
 
@@ -637,7 +640,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:50
+[encryption-utils/crypto-utils.const.ts:50](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L50)
 
 ___
 
@@ -647,7 +650,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:56
+[encryption-utils/crypto-utils.const.ts:56](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L56)
 
 ___
 
@@ -657,7 +660,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:60
+[encryption-utils/crypto-utils.const.ts:60](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L60)
 
 ___
 
@@ -667,7 +670,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:58
+[encryption-utils/crypto-utils.const.ts:58](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L58)
 
 ___
 
@@ -677,7 +680,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:62
+[encryption-utils/crypto-utils.const.ts:62](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L62)
 
 ___
 
@@ -687,7 +690,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:45
+[encryption-utils/crypto-utils.const.ts:45](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L45)
 
 ___
 
@@ -697,7 +700,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:3
+[encryption-utils/crypto-utils.const.ts:3](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L3)
 
 ___
 
@@ -707,7 +710,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:5
+[encryption-utils/crypto-utils.const.ts:5](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L5)
 
 ___
 
@@ -725,7 +728,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:7
+[encryption-utils/crypto-utils.const.ts:7](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L7)
 
 ___
 
@@ -735,7 +738,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:32
+[encryption-utils/crypto-utils.const.ts:32](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L32)
 
 ___
 
@@ -745,7 +748,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:30
+[encryption-utils/crypto-utils.const.ts:30](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L30)
 
 ___
 
@@ -763,7 +766,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:42
+[data-sign-utils/data-sign-utils.const.ts:42](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L42)
 
 ___
 
@@ -780,7 +783,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:30
+[data-sign-utils/data-sign-utils.const.ts:30](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L30)
 
 ___
 
@@ -790,7 +793,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:7
+[data-sign-utils/data-sign-utils.const.ts:7](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L7)
 
 ___
 
@@ -800,7 +803,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:34
+[data-sign-utils/data-sign-utils.const.ts:34](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L34)
 
 ___
 
@@ -810,7 +813,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:38
+[data-sign-utils/data-sign-utils.const.ts:38](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L38)
 
 ___
 
@@ -820,7 +823,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:36
+[data-sign-utils/data-sign-utils.const.ts:36](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L36)
 
 ___
 
@@ -830,7 +833,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:40
+[data-sign-utils/data-sign-utils.const.ts:40](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L40)
 
 ___
 
@@ -840,7 +843,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:25
+[data-sign-utils/data-sign-utils.const.ts:25](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L25)
 
 ___
 
@@ -850,7 +853,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:3
+[data-sign-utils/data-sign-utils.const.ts:3](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L3)
 
 ___
 
@@ -860,7 +863,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:5
+[data-sign-utils/data-sign-utils.const.ts:5](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L5)
 
 ___
 
@@ -877,7 +880,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:10
+[data-sign-utils/data-sign-utils.const.ts:10](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L10)
 
 ___
 
@@ -887,7 +890,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:18
+[data-sign-utils/data-sign-utils.const.ts:18](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L18)
 
 ___
 
@@ -897,7 +900,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:15
+[data-sign-utils/data-sign-utils.const.ts:15](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L15)
 
 ___
 
@@ -907,7 +910,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:23
+[data-sign-utils/data-sign-utils.const.ts:23](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L23)
 
 ___
 
@@ -917,7 +920,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:21
+[data-sign-utils/data-sign-utils.const.ts:21](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L21)
 
 ___
 
@@ -927,7 +930,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.const.ts:1
+[encryption-keys-utils/encryption-keys-utils.const.ts:1](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.const.ts#L1)
 
 ___
 
@@ -937,7 +940,7 @@ ___
 
 #### Defined in
 
-const.ts:15
+[const.ts:15](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/const.ts#L15)
 
 ___
 
@@ -947,7 +950,7 @@ ___
 
 #### Defined in
 
-const.ts:7
+[const.ts:7](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/const.ts#L7)
 
 ___
 
@@ -957,7 +960,7 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:64
+[encryption-utils/crypto-utils.const.ts:64](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L64)
 
 ___
 
@@ -967,7 +970,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/data-sign-utils.const.ts:47
+[data-sign-utils/data-sign-utils.const.ts:47](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/data-sign-utils.const.ts#L47)
 
 ___
 
@@ -977,7 +980,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.const.ts:23
+[encryption-keys-utils/encryption-keys-utils.const.ts:23](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.const.ts#L23)
 
 ___
 
@@ -987,7 +990,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.const.ts:21
+[encryption-keys-utils/encryption-keys-utils.const.ts:21](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.const.ts#L21)
 
 ___
 
@@ -1004,7 +1007,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:60
+[password-utils/password-utils.const.ts:60](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L60)
 
 ___
 
@@ -1014,7 +1017,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:53
+[password-utils/password-utils.const.ts:53](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L53)
 
 ___
 
@@ -1031,7 +1034,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:55
+[password-utils/password-utils.const.ts:55](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L55)
 
 ___
 
@@ -1050,7 +1053,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:22
+[password-utils/password-utils.const.ts:22](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L22)
 
 ___
 
@@ -1060,7 +1063,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:18
+[password-utils/password-utils.const.ts:18](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L18)
 
 ___
 
@@ -1070,7 +1073,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:20
+[password-utils/password-utils.const.ts:20](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L20)
 
 ___
 
@@ -1080,7 +1083,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:29
+[password-utils/password-utils.const.ts:29](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L29)
 
 ___
 
@@ -1097,7 +1100,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:34
+[password-utils/password-utils.const.ts:34](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L34)
 
 ___
 
@@ -1107,7 +1110,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:47
+[password-utils/password-utils.const.ts:47](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L47)
 
 ___
 
@@ -1117,7 +1120,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:50
+[password-utils/password-utils.const.ts:50](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L50)
 
 ___
 
@@ -1127,7 +1130,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:39
+[password-utils/password-utils.const.ts:39](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L39)
 
 ___
 
@@ -1137,7 +1140,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:32
+[password-utils/password-utils.const.ts:32](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L32)
 
 ___
 
@@ -1147,7 +1150,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:42
+[password-utils/password-utils.const.ts:42](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L42)
 
 ___
 
@@ -1157,7 +1160,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:8
+[password-utils/password-utils.const.ts:8](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L8)
 
 ___
 
@@ -1167,7 +1170,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:10
+[password-utils/password-utils.const.ts:10](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L10)
 
 ___
 
@@ -1177,7 +1180,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:3
+[password-utils/password-utils.const.ts:3](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L3)
 
 ___
 
@@ -1187,7 +1190,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:6
+[password-utils/password-utils.const.ts:6](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L6)
 
 ___
 
@@ -1197,7 +1200,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:15
+[password-utils/password-utils.const.ts:15](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L15)
 
 ___
 
@@ -1207,7 +1210,7 @@ ___
 
 #### Defined in
 
-password-utils/password-utils.const.ts:13
+[password-utils/password-utils.const.ts:13](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/password-utils.const.ts#L13)
 
 ___
 
@@ -1217,7 +1220,7 @@ ___
 
 #### Defined in
 
-encryption-utils/salt-utils.const.ts:1
+[encryption-utils/salt-utils.const.ts:1](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/salt-utils.const.ts#L1)
 
 ___
 
@@ -1227,7 +1230,7 @@ ___
 
 #### Defined in
 
-encryption-utils/salt-utils.const.ts:5
+[encryption-utils/salt-utils.const.ts:5](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/salt-utils.const.ts#L5)
 
 ___
 
@@ -1237,7 +1240,7 @@ ___
 
 #### Defined in
 
-encryption-utils/salt-utils.const.ts:3
+[encryption-utils/salt-utils.const.ts:3](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/salt-utils.const.ts#L3)
 
 ## Functions
 
@@ -1260,7 +1263,7 @@ calculates hash string of the crypto key
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:158
+[encryption-keys-utils/encryption-keys-utils.ts:158](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L158)
 
 ___
 
@@ -1280,7 +1283,49 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:201
+[encryption-keys-utils/encryption-keys-utils.ts:201](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L201)
+
+___
+
+### calculateHash
+
+▸ `Const` **calculateHash**(`data`, `alg?`): `Promise`<`string` \| `Error`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `TSerializableDataTypes` |
+| `alg` | [`HASH_CALCULATION_UTILS_HASH_ALGORITHM`](enums/hash_calculation_utils_hash_algorithm.md) |
+
+#### Returns
+
+`Promise`<`string` \| `Error`\>
+
+#### Defined in
+
+[hash-calculation-utils/hash-calculation-utils.ts:29](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/hash-calculation-utils/hash-calculation-utils.ts#L29)
+
+___
+
+### calculateHashNative
+
+▸ `Const` **calculateHashNative**(`data`, `alg`): `Promise`<`ArrayBuffer` \| `Error`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `TTypedArrays` |
+| `alg` | [`HASH_CALCULATION_UTILS_HASH_ALGORITHM`](enums/hash_calculation_utils_hash_algorithm.md) |
+
+#### Returns
+
+`Promise`<`ArrayBuffer` \| `Error`\>
+
+#### Defined in
+
+[hash-calculation-utils/hash-calculation-utils.ts:16](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/hash-calculation-utils/hash-calculation-utils.ts#L16)
 
 ___
 
@@ -1300,7 +1345,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:305
+[encryption-utils/keys.encryption-utils.ts:305](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L305)
 
 ___
 
@@ -1320,7 +1365,7 @@ ___
 
 #### Defined in
 
-encryption-utils/encrypt-data.encryption-utils.ts:53
+[encryption-utils/encrypt-data.encryption-utils.ts:53](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/encrypt-data.encryption-utils.ts#L53)
 
 ___
 
@@ -1340,7 +1385,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:358
+[data-sign-utils/keys.data-sign-utils.ts:358](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L358)
 
 ___
 
@@ -1364,7 +1409,7 @@ and returns a crypto key as a string
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:433
+[data-sign-utils/keys.data-sign-utils.ts:433](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L433)
 
 ___
 
@@ -1384,7 +1429,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:54
+[data-sign-utils/keys.data-sign-utils.ts:54](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L54)
 
 ___
 
@@ -1404,7 +1449,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:67
+[data-sign-utils/keys.data-sign-utils.ts:67](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L67)
 
 ___
 
@@ -1425,7 +1470,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:106
+[data-sign-utils/keys.data-sign-utils.ts:106](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L106)
 
 ___
 
@@ -1446,7 +1491,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:180
+[data-sign-utils/keys.data-sign-utils.ts:180](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L180)
 
 ___
 
@@ -1466,7 +1511,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:82
+[data-sign-utils/keys.data-sign-utils.ts:82](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L82)
 
 ___
 
@@ -1486,7 +1531,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:91
+[data-sign-utils/keys.data-sign-utils.ts:91](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L91)
 
 ___
 
@@ -1500,7 +1545,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:47
+[data-sign-utils/keys.data-sign-utils.ts:47](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L47)
 
 ___
 
@@ -1521,7 +1566,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:365
+[data-sign-utils/keys.data-sign-utils.ts:365](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L365)
 
 ___
 
@@ -1546,7 +1591,7 @@ format
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:410
+[data-sign-utils/keys.data-sign-utils.ts:410](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L410)
 
 ___
 
@@ -1567,7 +1612,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:199
+[data-sign-utils/keys.data-sign-utils.ts:199](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L199)
 
 ___
 
@@ -1588,7 +1633,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:331
+[data-sign-utils/keys.data-sign-utils.ts:331](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L331)
 
 ___
 
@@ -1609,7 +1654,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:236
+[data-sign-utils/keys.data-sign-utils.ts:236](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L236)
 
 ___
 
@@ -1630,7 +1675,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:278
+[data-sign-utils/keys.data-sign-utils.ts:278](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L278)
 
 ___
 
@@ -1650,7 +1695,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:232
+[data-sign-utils/keys.data-sign-utils.ts:232](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L232)
 
 ___
 
@@ -1670,7 +1715,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:353
+[data-sign-utils/keys.data-sign-utils.ts:353](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L353)
 
 ___
 
@@ -1690,7 +1735,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:228
+[data-sign-utils/keys.data-sign-utils.ts:228](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L228)
 
 ___
 
@@ -1710,7 +1755,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:348
+[data-sign-utils/keys.data-sign-utils.ts:348](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L348)
 
 ___
 
@@ -1731,7 +1776,7 @@ key is TDataSignUtilKeypairExportFormatType
 
 #### Defined in
 
-data-sign-utils/keys.data-sign-utils.ts:36
+[data-sign-utils/keys.data-sign-utils.ts:36](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/keys.data-sign-utils.ts#L36)
 
 ___
 
@@ -1753,7 +1798,7 @@ ___
 
 #### Defined in
 
-encryption-utils/decrypt-data.encryption-utils.ts:77
+[encryption-utils/decrypt-data.encryption-utils.ts:77](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/decrypt-data.encryption-utils.ts#L77)
 
 ___
 
@@ -1774,7 +1819,7 @@ ___
 
 #### Defined in
 
-password-utils/decrypt.password-utils.ts:80
+[password-utils/decrypt.password-utils.ts:80](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/decrypt.password-utils.ts#L80)
 
 ___
 
@@ -1796,7 +1841,7 @@ ___
 
 #### Defined in
 
-password-utils/decrypt.password-utils.ts:105
+[password-utils/decrypt.password-utils.ts:105](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/decrypt.password-utils.ts#L105)
 
 ___
 
@@ -1818,7 +1863,7 @@ ___
 
 #### Defined in
 
-encryption-utils/decrypt-data.encryption-utils.ts:39
+[encryption-utils/decrypt-data.encryption-utils.ts:39](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/decrypt-data.encryption-utils.ts#L39)
 
 ___
 
@@ -1839,7 +1884,7 @@ ___
 
 #### Defined in
 
-password-utils/decrypt.password-utils.ts:45
+[password-utils/decrypt.password-utils.ts:45](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/decrypt.password-utils.ts#L45)
 
 ___
 
@@ -1860,7 +1905,7 @@ ___
 
 #### Defined in
 
-password-utils/decrypt.password-utils.ts:67
+[password-utils/decrypt.password-utils.ts:67](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/decrypt.password-utils.ts#L67)
 
 ___
 
@@ -1881,7 +1926,7 @@ ___
 
 #### Defined in
 
-password-utils/decrypt.password-utils.ts:16
+[password-utils/decrypt.password-utils.ts:16](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/decrypt.password-utils.ts#L16)
 
 ___
 
@@ -1903,7 +1948,7 @@ ___
 
 #### Defined in
 
-encryption-utils/decrypt-data.encryption-utils.ts:22
+[encryption-utils/decrypt-data.encryption-utils.ts:22](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/decrypt-data.encryption-utils.ts#L22)
 
 ___
 
@@ -1924,7 +1969,7 @@ ___
 
 #### Defined in
 
-password-utils/encrypt.password-utils.ts:17
+[password-utils/encrypt.password-utils.ts:17](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/encrypt.password-utils.ts#L17)
 
 ___
 
@@ -1945,7 +1990,7 @@ ___
 
 #### Defined in
 
-password-utils/encrypt.password-utils.ts:53
+[password-utils/encrypt.password-utils.ts:53](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/encrypt.password-utils.ts#L53)
 
 ___
 
@@ -1966,7 +2011,7 @@ ___
 
 #### Defined in
 
-password-utils/encrypt.password-utils.ts:65
+[password-utils/encrypt.password-utils.ts:65](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/encrypt.password-utils.ts#L65)
 
 ___
 
@@ -1988,7 +2033,7 @@ ___
 
 #### Defined in
 
-password-utils/encrypt.password-utils.ts:77
+[password-utils/encrypt.password-utils.ts:77](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/encrypt.password-utils.ts#L77)
 
 ___
 
@@ -2010,7 +2055,7 @@ ___
 
 #### Defined in
 
-password-utils/encrypt.password-utils.ts:92
+[password-utils/encrypt.password-utils.ts:92](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/encrypt.password-utils.ts#L92)
 
 ___
 
@@ -2032,7 +2077,7 @@ ___
 
 #### Defined in
 
-encryption-utils/encrypt-data.encryption-utils.ts:100
+[encryption-utils/encrypt-data.encryption-utils.ts:100](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/encrypt-data.encryption-utils.ts#L100)
 
 ___
 
@@ -2054,7 +2099,7 @@ ___
 
 #### Defined in
 
-encryption-utils/encrypt-data.encryption-utils.ts:145
+[encryption-utils/encrypt-data.encryption-utils.ts:145](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/encrypt-data.encryption-utils.ts#L145)
 
 ___
 
@@ -2076,7 +2121,7 @@ ___
 
 #### Defined in
 
-encryption-utils/encrypt-data.encryption-utils.ts:117
+[encryption-utils/encrypt-data.encryption-utils.ts:117](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/encrypt-data.encryption-utils.ts#L117)
 
 ___
 
@@ -2097,7 +2142,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:132
+[encryption-keys-utils/encryption-keys-utils.ts:132](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L132)
 
 ___
 
@@ -2117,7 +2162,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:51
+[encryption-utils/keys.encryption-utils.ts:51](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L51)
 
 ___
 
@@ -2137,7 +2182,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:65
+[encryption-utils/keys.encryption-utils.ts:65](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L65)
 
 ___
 
@@ -2158,7 +2203,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:84
+[encryption-utils/keys.encryption-utils.ts:84](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L84)
 
 ___
 
@@ -2179,7 +2224,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:151
+[encryption-utils/keys.encryption-utils.ts:151](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L151)
 
 ___
 
@@ -2199,7 +2244,7 @@ ___
 
 #### Defined in
 
-password-utils/derive-key.password-utils.ts:103
+[password-utils/derive-key.password-utils.ts:103](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/derive-key.password-utils.ts#L103)
 
 ___
 
@@ -2219,7 +2264,7 @@ ___
 
 #### Defined in
 
-password-utils/derive-key.password-utils.ts:119
+[password-utils/derive-key.password-utils.ts:119](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/derive-key.password-utils.ts#L119)
 
 ___
 
@@ -2239,7 +2284,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:71
+[encryption-utils/keys.encryption-utils.ts:71](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L71)
 
 ___
 
@@ -2259,7 +2304,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:75
+[encryption-utils/keys.encryption-utils.ts:75](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L75)
 
 ___
 
@@ -2282,7 +2327,7 @@ encryption
 
 #### Defined in
 
-encryption-utils/encrypt-data.encryption-utils.ts:32
+[encryption-utils/encrypt-data.encryption-utils.ts:32](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/encrypt-data.encryption-utils.ts#L32)
 
 ___
 
@@ -2302,7 +2347,7 @@ ___
 
 #### Defined in
 
-encryption-utils/encrypt-data.encryption-utils.ts:42
+[encryption-utils/encrypt-data.encryption-utils.ts:42](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/encrypt-data.encryption-utils.ts#L42)
 
 ___
 
@@ -2316,7 +2361,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:44
+[encryption-utils/keys.encryption-utils.ts:44](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L44)
 
 ___
 
@@ -2336,7 +2381,7 @@ ___
 
 #### Defined in
 
-password-utils/derive-key.password-utils.ts:28
+[password-utils/derive-key.password-utils.ts:28](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/derive-key.password-utils.ts#L28)
 
 ___
 
@@ -2357,7 +2402,7 @@ ___
 
 #### Defined in
 
-password-utils/derive-key.password-utils.ts:154
+[password-utils/derive-key.password-utils.ts:154](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/derive-key.password-utils.ts#L154)
 
 ___
 
@@ -2378,7 +2423,7 @@ ___
 
 #### Defined in
 
-password-utils/derive-key.password-utils.ts:79
+[password-utils/derive-key.password-utils.ts:79](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/derive-key.password-utils.ts#L79)
 
 ___
 
@@ -2399,7 +2444,7 @@ ___
 
 #### Defined in
 
-password-utils/derive-key.password-utils.ts:138
+[password-utils/derive-key.password-utils.ts:138](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/derive-key.password-utils.ts#L138)
 
 ___
 
@@ -2419,7 +2464,7 @@ ___
 
 #### Defined in
 
-encryption-utils/salt-utils.ts:24
+[encryption-utils/salt-utils.ts:24](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/salt-utils.ts#L24)
 
 ___
 
@@ -2439,7 +2484,7 @@ ___
 
 #### Defined in
 
-encryption-utils/salt-utils.ts:16
+[encryption-utils/salt-utils.ts:16](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/salt-utils.ts#L16)
 
 ___
 
@@ -2459,7 +2504,7 @@ ___
 
 #### Defined in
 
-encryption-utils/salt-utils.ts:40
+[encryption-utils/salt-utils.ts:40](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/salt-utils.ts#L40)
 
 ___
 
@@ -2480,7 +2525,7 @@ ___
 
 #### Defined in
 
-password-utils/derive-key.password-utils.ts:47
+[password-utils/derive-key.password-utils.ts:47](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/derive-key.password-utils.ts#L47)
 
 ___
 
@@ -2501,7 +2546,7 @@ ___
 
 #### Defined in
 
-encryption-utils/encrypt-data.encryption-utils.ts:63
+[encryption-utils/encrypt-data.encryption-utils.ts:63](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/encrypt-data.encryption-utils.ts#L63)
 
 ___
 
@@ -2522,7 +2567,7 @@ ___
 
 #### Defined in
 
-encryption-utils/encrypt-data.encryption-utils.ts:88
+[encryption-utils/encrypt-data.encryption-utils.ts:88](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/encrypt-data.encryption-utils.ts#L88)
 
 ___
 
@@ -2543,7 +2588,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:102
+[encryption-keys-utils/encryption-keys-utils.ts:102](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L102)
 
 ___
 
@@ -2563,7 +2608,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:129
+[encryption-keys-utils/encryption-keys-utils.ts:129](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L129)
 
 ___
 
@@ -2583,7 +2628,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:126
+[encryption-keys-utils/encryption-keys-utils.ts:126](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L126)
 
 ___
 
@@ -2604,7 +2649,28 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:314
+[encryption-utils/keys.encryption-utils.ts:314](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L314)
+
+___
+
+### hashCalculator
+
+▸ `Const` **hashCalculator**(`algorithm`, `data`): `Promise`<`ArrayBuffer`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `algorithm` | `AlgorithmIdentifier` |
+| `data` | `ArrayBuffer` \| `Int8Array` \| `Uint8Array` \| `Uint8ClampedArray` \| `Int16Array` \| `Uint16Array` \| `Int32Array` \| `Uint32Array` \| `Float32Array` \| `Float64Array` \| `DataView` |
+
+#### Returns
+
+`Promise`<`ArrayBuffer`\>
+
+#### Defined in
+
+[hash-calculation-utils/hash-calculation-utils.ts:14](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/hash-calculation-utils/hash-calculation-utils.ts#L14)
 
 ___
 
@@ -2625,7 +2691,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:170
+[encryption-utils/keys.encryption-utils.ts:170](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L170)
 
 ___
 
@@ -2646,7 +2712,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:286
+[encryption-utils/keys.encryption-utils.ts:286](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L286)
 
 ___
 
@@ -2667,7 +2733,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:189
+[encryption-utils/keys.encryption-utils.ts:189](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L189)
 
 ___
 
@@ -2688,7 +2754,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:243
+[encryption-utils/keys.encryption-utils.ts:243](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L243)
 
 ___
 
@@ -2708,7 +2774,7 @@ ___
 
 #### Defined in
 
-password-utils/derive-key.password-utils.ts:170
+[password-utils/derive-key.password-utils.ts:170](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/derive-key.password-utils.ts#L170)
 
 ___
 
@@ -2728,7 +2794,7 @@ ___
 
 #### Defined in
 
-password-utils/derive-key.password-utils.ts:188
+[password-utils/derive-key.password-utils.ts:188](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/password-utils/derive-key.password-utils.ts#L188)
 
 ___
 
@@ -2748,7 +2814,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:186
+[encryption-utils/keys.encryption-utils.ts:186](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L186)
 
 ___
 
@@ -2768,7 +2834,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:301
+[encryption-utils/keys.encryption-utils.ts:301](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L301)
 
 ___
 
@@ -2788,7 +2854,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:183
+[encryption-utils/keys.encryption-utils.ts:183](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L183)
 
 ___
 
@@ -2808,7 +2874,7 @@ ___
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:297
+[encryption-utils/keys.encryption-utils.ts:297](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L297)
 
 ___
 
@@ -2828,7 +2894,7 @@ ___
 
 #### Defined in
 
-encryption-utils/salt-utils.ts:103
+[encryption-utils/salt-utils.ts:103](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/salt-utils.ts#L103)
 
 ___
 
@@ -2848,7 +2914,7 @@ v is CryptoKey
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:23
+[encryption-keys-utils/encryption-keys-utils.ts:23](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L23)
 
 ___
 
@@ -2868,7 +2934,7 @@ cryptoKey is CryptoKey
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:64
+[encryption-keys-utils/encryption-keys-utils.ts:64](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L64)
 
 ___
 
@@ -2888,7 +2954,7 @@ cryptoKey is CryptoKey
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:58
+[encryption-keys-utils/encryption-keys-utils.ts:58](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L58)
 
 ___
 
@@ -2908,7 +2974,7 @@ cryptoKey is CryptoKey
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:50
+[encryption-keys-utils/encryption-keys-utils.ts:50](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L50)
 
 ___
 
@@ -2928,7 +2994,7 @@ cryptoKey is CryptoKey
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:54
+[encryption-keys-utils/encryption-keys-utils.ts:54](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L54)
 
 ___
 
@@ -2949,7 +3015,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:38
+[encryption-keys-utils/encryption-keys-utils.ts:38](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L38)
 
 ___
 
@@ -2970,7 +3036,7 @@ keyPair is CryptoKeyPair
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:27
+[encryption-keys-utils/encryption-keys-utils.ts:27](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L27)
 
 ___
 
@@ -2990,7 +3056,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:70
+[encryption-keys-utils/encryption-keys-utils.ts:70](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L70)
 
 ___
 
@@ -3011,7 +3077,7 @@ key is TCryptoUtilKeypairExportFormatType
 
 #### Defined in
 
-encryption-utils/keys.encryption-utils.ts:33
+[encryption-utils/keys.encryption-utils.ts:33](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/keys.encryption-utils.ts#L33)
 
 ___
 
@@ -3032,7 +3098,7 @@ ___
 
 #### Defined in
 
-encryption-keys-utils/encryption-keys-utils.ts:74
+[encryption-keys-utils/encryption-keys-utils.ts:74](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-keys-utils/encryption-keys-utils.ts#L74)
 
 ___
 
@@ -3052,7 +3118,7 @@ salt is TSaltUtilsSaltType
 
 #### Defined in
 
-encryption-utils/salt-utils.ts:50
+[encryption-utils/salt-utils.ts:50](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/salt-utils.ts#L50)
 
 ___
 
@@ -3073,7 +3139,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/sign-data.encryption-utils.ts:19
+[data-sign-utils/sign-data.encryption-utils.ts:19](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/sign-data.encryption-utils.ts#L19)
 
 ___
 
@@ -3094,7 +3160,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/sign-data.encryption-utils.ts:65
+[data-sign-utils/sign-data.encryption-utils.ts:65](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/sign-data.encryption-utils.ts#L65)
 
 ___
 
@@ -3115,7 +3181,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/sign-data.encryption-utils.ts:41
+[data-sign-utils/sign-data.encryption-utils.ts:41](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/sign-data.encryption-utils.ts#L41)
 
 ___
 
@@ -3137,7 +3203,7 @@ ___
 
 #### Defined in
 
-data-sign-utils/verify-data.encryption-utils.ts:46
+[data-sign-utils/verify-data.encryption-utils.ts:46](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/verify-data.encryption-utils.ts#L46)
 
 ___
 
@@ -3159,4 +3225,4 @@ ___
 
 #### Defined in
 
-data-sign-utils/verify-data.encryption-utils.ts:17
+[data-sign-utils/verify-data.encryption-utils.ts:17](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/data-sign-utils/verify-data.encryption-utils.ts#L17)

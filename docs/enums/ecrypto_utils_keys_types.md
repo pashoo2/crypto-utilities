@@ -1,4 +1,4 @@
-[@pashoo2/utils](../README.md) / [Exports](../modules.md) / eCRYPTO_UTILS_KEYS_TYPES
+[@pashoo2/crypto-utilities](../README.md) / [Exports](../modules.md) / eCRYPTO_UTILS_KEYS_TYPES
 
 # Enumeration: eCRYPTO\_UTILS\_KEYS\_TYPES
 
@@ -17,7 +17,7 @@
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:27
+[encryption-utils/crypto-utils.const.ts:27](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L27)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-encryption-utils/crypto-utils.const.ts:26
+[encryption-utils/crypto-utils.const.ts:26](https://github.com/pashoo2/crypto-utilities/blob/ebd3673/src/encryption-utils/crypto-utils.const.ts#L26)
