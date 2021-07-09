@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.importSalt = exports.isValidSalt = exports.generateSaltString = exports.generateSalt = exports.generateSaltNative = void 0;
-var typed_array_utils_1 = require("@pashoo2/typed-array-utils");
-var init_1 = require("../init");
-var salt_utils_const_1 = require("./salt-utils.const");
-var generateSaltNative = function (saltLength) {
+const typed_array_utils_1 = require("@pashoo2/typed-array-utils");
+const init_1 = require("../init");
+const salt_utils_const_1 = require("./salt-utils.const");
+const generateSaltNative = (saltLength) => {
     try {
         return init_1.crypto.getRandomValues(new Uint8Array(saltLength));
     }
@@ -13,19 +13,18 @@ var generateSaltNative = function (saltLength) {
     }
 };
 exports.generateSaltNative = generateSaltNative;
-var generateSalt = function (saltLength) {
-    if (saltLength === void 0) { saltLength = salt_utils_const_1.SALT_GENERATION_UTILS_SALT_LENGTH_BYTES; }
+const generateSalt = (saltLength = salt_utils_const_1.SALT_GENERATION_UTILS_SALT_LENGTH_BYTES) => {
     if (saltLength < salt_utils_const_1.SALT_GENERATION_UTILS_SALT_MIN_LENGTH_BYTES) {
-        return new Error("The length " + saltLength + " must not be less than the " + salt_utils_const_1.SALT_GENERATION_UTILS_SALT_MIN_LENGTH_BYTES);
+        return new Error(`The length ${saltLength} must not be less than the ${salt_utils_const_1.SALT_GENERATION_UTILS_SALT_MIN_LENGTH_BYTES}`);
     }
     if (saltLength > salt_utils_const_1.SALT_GENERATION_UTILS_SALT_MAX_LENGTH_BYTES) {
-        return new Error("The length " + saltLength + " should not be greater than " + salt_utils_const_1.SALT_GENERATION_UTILS_SALT_MAX_LENGTH_BYTES);
+        return new Error(`The length ${saltLength} should not be greater than ${salt_utils_const_1.SALT_GENERATION_UTILS_SALT_MAX_LENGTH_BYTES}`);
     }
     return exports.generateSaltNative(saltLength);
 };
 exports.generateSalt = generateSalt;
-var generateSaltString = function (saltLength) {
-    var salt = exports.generateSalt(saltLength);
+const generateSaltString = (saltLength) => {
+    const salt = exports.generateSalt(saltLength);
     if (salt instanceof Error) {
         return salt;
     }
@@ -33,16 +32,16 @@ var generateSaltString = function (saltLength) {
 };
 exports.generateSaltString = generateSaltString;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-var isValidSalt = function (salt) {
+const isValidSalt = (salt) => {
     if (typed_array_utils_1.isTypedArrayNative(salt) || salt instanceof ArrayBuffer) {
-        var strFromTyped = void 0;
+        let strFromTyped;
         try {
             strFromTyped = typed_array_utils_1.typedArrayToString(salt);
         }
         catch (_a) {
             return false;
         }
-        var typedFromStr = typed_array_utils_1.convertToTypedArray(strFromTyped);
+        const typedFromStr = typed_array_utils_1.convertToTypedArray(strFromTyped);
         if (typedFromStr instanceof Error) {
             return false;
         }
@@ -57,11 +56,11 @@ var isValidSalt = function (salt) {
             salt.byteLength <= salt_utils_const_1.SALT_GENERATION_UTILS_SALT_MAX_LENGTH_BYTES);
     }
     if (typeof salt === 'string') {
-        var typedFromStr = typed_array_utils_1.convertToTypedArray(salt);
+        const typedFromStr = typed_array_utils_1.convertToTypedArray(salt);
         if (typedFromStr instanceof Error) {
             return false;
         }
-        var strFromTyped = void 0;
+        let strFromTyped;
         try {
             strFromTyped = typed_array_utils_1.typedArrayToString(typedFromStr);
         }
@@ -77,7 +76,7 @@ var isValidSalt = function (salt) {
     return false;
 };
 exports.isValidSalt = isValidSalt;
-var importSalt = function (salt) {
+const importSalt = (salt) => {
     if (!exports.isValidSalt(salt)) {
         return new Error('The salt is not valid');
     }
@@ -86,7 +85,7 @@ var importSalt = function (salt) {
         return new Uint8Array(salt);
     }
     // if a string then convert string to typed array
-    var saltImported = typed_array_utils_1.convertToTypedArray(salt);
+    const saltImported = typed_array_utils_1.convertToTypedArray(salt);
     if (saltImported instanceof Error) {
         return saltImported;
     }
