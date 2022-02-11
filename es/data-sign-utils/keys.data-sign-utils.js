@@ -26,7 +26,7 @@ const dataSignIsCryptoKeyPairImported = (key, checkPrivateKey = true) => {
         (!checkPrivateKey || !!key[data_sign_utils_const_1.DATA_SIGN_CRYPTO_UTIL_KEYPAIR_PRIVATE_KEY_NAME]));
 };
 exports.dataSignIsCryptoKeyPairImported = dataSignIsCryptoKeyPairImported;
-const dataSignGenerateKeyPair = () => init_1.cryptoModuleDataSign.generateKey(data_sign_utils_const_1.DATA_SIGN_CRYPTO_UTIL_GENERATE_KEYPAIR_OPTIONS, data_sign_utils_const_1.DATA_SIGN_CRYPTO_UTIL_KEYS_EXTRACTABLE, data_sign_utils_const_1.DATA_SIGN_CRYPTO_UTIL_KEYPAIR_USAGES);
+const dataSignGenerateKeyPair = (keyPairOptions = data_sign_utils_const_1.DATA_SIGN_CRYPTO_UTIL_GENERATE_KEYPAIR_OPTIONS) => init_1.cryptoModuleDataSign.generateKey(keyPairOptions, data_sign_utils_const_1.DATA_SIGN_CRYPTO_UTIL_KEYS_EXTRACTABLE, data_sign_utils_const_1.DATA_SIGN_CRYPTO_UTIL_KEYPAIR_USAGES);
 exports.dataSignGenerateKeyPair = dataSignGenerateKeyPair;
 const dataSignExportKey = (key) => __awaiter(void 0, void 0, void 0, function* () {
     try {

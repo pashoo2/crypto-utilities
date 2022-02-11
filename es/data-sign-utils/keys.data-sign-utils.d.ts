@@ -2,7 +2,7 @@ import { TDataSignUtilKeyExportFormatType, TDataSignUtilKeypairExportFormatType,
 import { TDataSignUtilKeypairImportType } from './data-sign-utils.types';
 import { TEncryptionKeyStoreFormatType } from '../types';
 export declare const dataSignIsCryptoKeyPairImported: (key: any, checkPrivateKey?: boolean) => key is TDataSignUtilKeypairExportFormatType;
-export declare const dataSignGenerateKeyPair: () => PromiseLike<CryptoKeyPair>;
+export declare const dataSignGenerateKeyPair: (keyPairOptions?: EcKeyGenParams) => PromiseLike<CryptoKeyPair>;
 export declare const dataSignExportKey: (key: CryptoKey) => Promise<TDataSignUtilKeyExportFormatType | Error>;
 export declare const dataSignExportKeyAsString: (key: CryptoKey) => Promise<string | Error>;
 export declare const dataSignExportPublicKey: (keyPair: CryptoKeyPair) => Promise<TDataSignUtilKeyExportFormatType | Error>;
