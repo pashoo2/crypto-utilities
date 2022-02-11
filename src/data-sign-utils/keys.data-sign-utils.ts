@@ -44,9 +44,11 @@ export const dataSignIsCryptoKeyPairImported = (
   );
 };
 
-export const dataSignGenerateKeyPair = (): PromiseLike<CryptoKeyPair> =>
+export const dataSignGenerateKeyPair = (
+  keyPairOptions: EcKeyGenParams = DATA_SIGN_CRYPTO_UTIL_GENERATE_KEYPAIR_OPTIONS
+): PromiseLike<CryptoKeyPair> =>
   cryptoModuleDataSign.generateKey(
-    DATA_SIGN_CRYPTO_UTIL_GENERATE_KEYPAIR_OPTIONS,
+    keyPairOptions,
     DATA_SIGN_CRYPTO_UTIL_KEYS_EXTRACTABLE,
     DATA_SIGN_CRYPTO_UTIL_KEYPAIR_USAGES
   );
